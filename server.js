@@ -1,5 +1,4 @@
 const express = require('express');
-const jsonServer=require('json-server');
 const path = require('path');
 const app = express();
 app.use(express.static(__dirname + '/dist/angular-example1-kartvizit'));
